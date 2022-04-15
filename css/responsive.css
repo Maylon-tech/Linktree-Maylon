@@ -1,11 +1,7 @@
-@media (min-width: 280px) and (max-width: 580px) {
+@media (min-width: 340px) and (max-width: 630px) {
     .header {
         width: 70%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-top: 50px;
-        color: white;
     }
     .header img {
         width: 100px;
@@ -18,8 +14,6 @@
     .header h2 {
         font-size: 0.9rem;
     }
-
-
     .navbar-social {
         width: 80%;
         margin: 0px;
@@ -29,30 +23,29 @@
         width: 20px;
         height: 20px;
     }
-
-
+    main {
+        width: 90%;
+    }
     .navbar-jobs {
         margin: 10px auto;
         width: 100%;
         margin-top: 30px;
     }
-    .navbar-jobs ul {
-        width: 100%;
-    }
+   
     .navbar-jobs li {
         margin: 25px auto;
         padding: 3px;
         border-radius: 8px;
     }
     .navbar-jobs a {
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: bold;
         padding: 3px;
     }
    
     .navbar-jobs span {
         display: block;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         color: #fff;
         font-weight: 400;
     }
