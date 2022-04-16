@@ -39,6 +39,7 @@ body {
     border-radius: 100px;
     margin-bottom: 15px;
     filter: drop-shadow(16px 16px 10px black);
+    -webkit-keyframes: floating 2s ease-in-out infinite;
     animation: floating 2s ease-in-out infinite;
 }
 .header h1 {
