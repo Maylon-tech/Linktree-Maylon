@@ -15,8 +15,8 @@ body {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.72),rgba(0,0,0,0.72)),url(../img/pexels-cottonbro-4065864.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -31,16 +31,15 @@ body {
     color: white;
 }
 .header img {
-    border: 1px solid white;
+    border: 3px solid white;
     background-color: rgba(8, 8, 8, 0.205);
-    padding: 16px;
+    box-shadow: 0px 0px 15px 0.5px white;
+    padding: 6px;
     width: 120px;
     height: 120px;
     border-radius: 100px;
     margin-bottom: 15px;
     filter: drop-shadow(16px 16px 10px black);
-    -webkit-keyframes: floating 2s ease-in-out infinite;
-    animation: floating 2s ease-in-out infinite;
 }
 .header h1 {
     font-size: 2.0rem;
