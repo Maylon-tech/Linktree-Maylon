@@ -1,27 +1,25 @@
-@media (min-width: 340px) and (max-width: 630px) {
+@media (min-width: 270px) and (max-width: 430px) {
     .header {
         width: 70%;
         margin-top: 50px;
     }
     .header img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         margin-bottom: 10px;
     }
     .header h1 {
-        font-size: 1.6rem;
+        font-size: 1.3em;
     }
     .header h2 {
-        font-size: 0.9rem;
+        font-size: 0.9em;
     }
     .navbar-social {
-        width: 80%;
-        margin: 0px;
+        width: 100%;
     }
-    
     .navbar-social ion-icon {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
     main {
         width: 90%;
@@ -29,23 +27,82 @@
     .navbar-jobs {
         margin: 10px auto;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 5px;
     }
-   
+    .navbar-jobs ul {
+        width: 100%;
+    }
     .navbar-jobs li {
-        margin: 25px auto;
+        margin: 10px auto;
         padding: 3px;
         border-radius: 8px;
+        width: 100%;
     }
     .navbar-jobs a {
-        font-size: 1rem;
+        font-size: 0.8em;
         font-weight: bold;
         padding: 3px;
     }
    
     .navbar-jobs span {
         display: block;
-        font-size: 0.8rem;
+        font-size: 0.8em;
+        color: #fff;
+        font-weight: 400;
+    }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 1100px) {
+    .header {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .header img {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .header h1 {
+        font-size: 2em;
+    }
+    .header h2 {
+        font-size: 1.2em;
+    }
+    .navbar-social {
+        width: 100%;
+    }
+    .navbar-social ion-icon {
+        width: 50px;
+        height: 50px;
+    }
+    main {
+        width: 90%;
+    }
+    .navbar-jobs {
+        margin: 30px auto;
+        width: 100%;
+    }
+    .navbar-jobs ul {
+        width: 80%;
+        margin: auto;
+    }
+    .navbar-jobs li {
+        margin: 30px auto;
+        padding: 10px;
+        border-radius: 8px;
+        width: 100%;
+    }
+    .navbar-jobs a {
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 3px;
+    }
+   
+    .navbar-jobs span {
+        display: block;
+        font-size: 1em;
         color: #fff;
         font-weight: 400;
     }
