@@ -1,5 +1,7 @@
-Add Responsividade 
+#Modelo Linktree
 
-Add bar & icon Links
+##Praticando HTML CSS
 
-set Git page test
+###Icones de redes sociais ativos.
+
+###Barra de links da Main Inativos.
